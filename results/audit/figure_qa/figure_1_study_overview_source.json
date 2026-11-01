@@ -1,0 +1,21 @@
+{
+  "figure": "figure_1_study_overview",
+  "meaning": "Donor coverage and recorded-age structure",
+  "sources": {
+    "results/tables/pseudobulk_samples.tsv": "2a70492ece48ebbd5b0c204b7e7592c8ef99f8151e871af3b1157cc2f6204109",
+    "results/sensitivity/donor_covariates.tsv": "145943a6987d6e14a99ed6c91c7e271175043a724584b54763e0467af27ddd66"
+  },
+  "plotting_data": {
+    "results/plot_data/figure_1_donors.tsv": "451eee3f3151dd63113fc7842fbb7f71d9e01a3b7d3339da63952b8fc1f3fd5a"
+  },
+  "points_are_empirical": true,
+  "command": "python scripts/05_figures.py",
+  "configuration": "scripts/figure_style.json",
+  "configuration_sha256": "6fa8a4f1f577177b7cac249298b7a51fffb9d70bb47edf5f9b1c654be72680a4",
+  "versions": {
+    "Python": "3.12.16",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

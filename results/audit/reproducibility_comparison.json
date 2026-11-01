@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "method": "Uncompressed content SHA256 comparison before and after full clean-Python/clean-R rerun",
+  "tables": [
+    {
+      "table": "results/tables/design_matrix.tsv",
+      "content_sha256": "b798afb4ffdc17988e3fb01ae72fc0a82de559ebe48d65078032931a5e020d3d",
+      "identical": true
+    },
+    {
+      "table": "results/tables/differential_expression.tsv",
+      "content_sha256": "fc969e08ee67b966694029e2586b228f8525c983ced59bb3fd7d012073d2ff80",
+      "identical": true
+    },
+    {
+      "table": "results/tables/dispersion_diagnostics.tsv",
+      "content_sha256": "7167322831d68d12350768f40ca9d78b42aeff7806b44d3448c8c320ce0d4430",
+      "identical": true
+    },
+    {
+      "table": "results/tables/enrichment_ranking.tsv",
+      "content_sha256": "0a4c8d198a8feb198f9f7196abf338c73b5da425f7d921a01ec1671e06fa8cae",
+      "identical": true
+    },
+    {
+      "table": "results/tables/enrichment_results.tsv",
+      "content_sha256": "d4ba2579c33ab66af3839969acdd2ca81d7ec99a77ac8b70752d1fab15b405e5",
+      "identical": true
+    },
+    {
+      "table": "results/tables/enrichment_set_coverage.tsv",
+      "content_sha256": "00c747d687573399841a86990d129361eb737e163ca05ba0cfb65952726971f5",
+      "identical": true
+    },
+    {
+      "table": "results/tables/gene_annotation.tsv",
+      "content_sha256": "e3b51fa3ddbee9d6b56614dbc8ed2498f762d68dce33867266d8760755baf01f",
+      "identical": true
+    },
+    {
+      "table": "results/tables/gene_filtering.tsv",
+      "content_sha256": "084883de2e11218db72c29b5ab001901f512b24cb797e8c0c27a37a87590bdcf",
+      "identical": true
+    },
+    {
+      "table": "results/tables/lodo_all_genes.tsv.gz",
+      "content_sha256": "cd3055d97f59c03cb291423ab9cb669ca01d313db11aa786ea06b699d682289e",
+      "identical": true
+    },
+    {
+      "table": "results/tables/lodo_gene_summary.tsv",
+      "content_sha256": "1582b20d9201b56d8d75c07cb708f0c461eba4e92bec544bdd527c0384db8010",
+      "identical": true
+    },
+    {
+      "table": "results/tables/lodo_iterations.tsv",
+      "content_sha256": "14279a8f82714e6e0b8841ae2cd1f112b9e8f2d42511a8c9cc7fd150b0467dcc",
+      "identical": true
+    },
+    {
+      "table": "results/tables/lodo_selected_genes.tsv",
+      "content_sha256": "387d759973a64872c14915fef01a90794a5e742f9caa73ef31431a552ceae75c",
+      "identical": true
+    },
+    {
+      "table": "results/tables/lodo_selected_results.tsv",
+      "content_sha256": "23de4d81ee999a28a04a12da2b10ad12bdb0acc62928030e93a84f807a9c8fa5",
+      "identical": true
+    },
+    {
+      "table": "results/tables/lodo_selected_summary.tsv",
+      "content_sha256": "161d5d7e4ac5c95bfbb2a706ccf70e96658f89e8341d912a087dc48350263a3f",
+      "identical": true
+    },
+    {
+      "table": "results/tables/normalization.tsv",
+      "content_sha256": "74db18c7ed5f3cfe33f87fc7421650b6acbe5a2edf2a4e9f6c911758552423a7",
+      "identical": true
+    },
+    {
+      "table": "results/tables/pseudobulk_counts.tsv.gz",
+      "content_sha256": "29b65a77300f19de86d3dccb3a91719ff2b58713a582e98518ce81118e2cde9e",
+      "identical": true
+    },
+    {
+      "table": "results/tables/pseudobulk_samples.tsv",
+      "content_sha256": "2a70492ece48ebbd5b0c204b7e7592c8ef99f8151e871af3b1157cc2f6204109",
+      "identical": true
+    }
+  ]
+}

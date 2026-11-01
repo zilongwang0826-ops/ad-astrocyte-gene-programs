@@ -1,0 +1,8 @@
+{
+ "identity":"Neurogenomics: aligned donor and functional-program evidence",
+ "colors":{"AD":"#7A3E67","Control":"#2E7F7B","ink":"#302B35","neutral":"#A9A3AC"},
+ "dpi":400,
+ "font":"Arial, installed local TrueType",
+ "semantics":"Plum: AD/positive effect; teal: control/negative effect; neutral: no gene-level discoveries. FDR matrix encodes evidence, not pathway activity. LODO ranges are not confidence intervals.",
+ "randomness":"No sampling. Fixed symmetric offsets for LODO points."
+}

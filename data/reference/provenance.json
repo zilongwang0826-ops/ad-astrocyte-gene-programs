@@ -1,0 +1,30 @@
+{
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-021-00894-z/MediaObjects/41588_2021_894_MOESM4_ESM.xlsx",
+  "source_table": "Supplementary Table 1",
+  "selection": "Rows with Assay = both; original column labels retained; donor_case_key joins integer Case.Year and Case.Num with a hyphen",
+  "retrieved_date_utc": "2026-10-29",
+  "derived_tsv_sha256": "c045f468f0f72f277e7f418c511e8866788202ef648d994df95b7673ee82278b",
+  "source_manifest": [
+    {
+      "file": "morabito_MOESM1_ESM.pdf",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-021-00894-z/MediaObjects/41588_2021_894_MOESM1_ESM.pdf",
+      "retrieved_date": "2026-10-29",
+      "bytes": 10439110,
+      "sha256": "579698d5c45af8e5b9fa3e03787400f6a879d993b7c5bb0c968bf99ded5eddf6"
+    },
+    {
+      "file": "morabito_MOESM4_ESM.xlsx",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-021-00894-z/MediaObjects/41588_2021_894_MOESM4_ESM.xlsx",
+      "retrieved_date": "2026-10-29",
+      "bytes": 8047504,
+      "sha256": "77a64fd6d0f055bb717750b8771f0958b4b1a4fcebba837e4ba3d8a036edfba3"
+    },
+    {
+      "file": "morabito_bioc.xml",
+      "source_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8766217/unicode",
+      "retrieved_date": "2026-10-29",
+      "bytes": 136506,
+      "sha256": "7a97ba42552949db6f4dbbb009d96d2c748043f3027f92c56d593e3097b350da"
+    }
+  ]
+}

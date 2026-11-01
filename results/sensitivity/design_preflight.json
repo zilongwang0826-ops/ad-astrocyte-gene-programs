@@ -1,0 +1,36 @@
+{
+  "status": "IDENTIFIABLE_WITH_LIMITED_OVERLAP",
+  "model": "~ diagnosis + recorded_age_centered",
+  "unit": "independent donor",
+  "n": 18,
+  "design_columns": ["(Intercept)", "diagnosisAD", "recorded_age_centered"],
+  "rank": 3,
+  "residual_df": 15,
+  "condition_number_centered_year_units": 13.2190124070413,
+  "diagnosis_recorded_age_correlation": 0.493753400053189,
+  "predictor_VIF": 1.32238822584236,
+  "age_missing": 0,
+  "age_center": 85.6111111111111,
+  "age_ranges": {
+    "AD": [80, 90],
+    "Control": [79, 90]
+  },
+  "overlapping_recorded_range": [80, 90],
+  "exact_shared_recorded_values": 90,
+  "donors_in_exact_shared_values": {
+    "Control": 2,
+    "AD": 5
+  },
+  "donors_in_overlapping_recorded_range": {
+    "Control": 3,
+    "AD": 11
+  },
+  "top_coded_donors": {
+    "Control": 2,
+    "AD": 5
+  },
+  "missing_PMI_donors": "Sample-100",
+  "representation": "Age=90 denotes the source 90-or-older category. The observed capped score is centered; no unknown chronological ages are imputed.",
+  "assumption": "Linear association with the observed capped score. This is a recorded-age-score sensitivity, not complete adjustment for true age.",
+  "limitations": "Exact shared age values consist only of the censored upper category; sex and conflicting batch identifiers remain unadjusted."
+}

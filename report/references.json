@@ -1,0 +1,140 @@
+{
+  "references": [
+    {
+      "id": "Morabito2021",
+      "authors": "Morabito S, Miyoshi E, Michael N, Shahin S, Martini AC, Head E, Silva J, Leavy K, Perez-Rosendahl M, Swarup V",
+      "year": 2021,
+      "title": "Single-nucleus chromatin accessibility and transcriptomic characterization of Alzheimer's disease",
+      "journal": "Nature Genetics",
+      "volume": "53",
+      "issue": "8",
+      "pages": "1143-1155",
+      "doi": "10.1038/s41588-021-00894-z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34239132/",
+      "primary_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8766217/"
+    },
+    {
+      "id": "Squair2021",
+      "authors": "Squair JW, Gautier M, Kathe C, et al.",
+      "year": 2021,
+      "title": "Confronting false discoveries in single-cell differential expression",
+      "journal": "Nature Communications",
+      "volume": "12",
+      "issue": null,
+      "pages": "5692",
+      "doi": "10.1038/s41467-021-25960-2",
+      "url": "https://www.nature.com/articles/s41467-021-25960-2"
+    },
+    {
+      "id": "Chen2025",
+      "authors": "Chen Y, Chen L, Lun ATL, Baldoni PL, Smyth GK",
+      "year": 2025,
+      "title": "edgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets",
+      "journal": "Nucleic Acids Research",
+      "volume": "53",
+      "issue": "2",
+      "pages": "gkaf018",
+      "doi": "10.1093/nar/gkaf018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11754124/"
+    },
+    {
+      "id": "Robinson2010",
+      "authors": "Robinson MD, Oshlack A",
+      "year": 2010,
+      "title": "A scaling normalization method for differential expression analysis of RNA-seq data",
+      "journal": "Genome Biology",
+      "volume": "11",
+      "issue": "3",
+      "pages": "R25",
+      "doi": "10.1186/gb-2010-11-3-r25",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20196867/?dopt=Abstract"
+    },
+    {
+      "id": "Wu2012",
+      "authors": "Wu D, Smyth GK",
+      "year": 2012,
+      "title": "Camera: a competitive gene set test accounting for inter-gene correlation",
+      "journal": "Nucleic Acids Research",
+      "volume": "40",
+      "issue": "17",
+      "pages": "e133",
+      "doi": "10.1093/nar/gks461",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22638577/",
+      "primary_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3458527/"
+    },
+    {
+      "id": "Liberzon2015",
+      "authors": "Liberzon A, Birger C, Thorvaldsdóttir H, Ghandi M, Mesirov JP, Tamayo P",
+      "year": 2015,
+      "title": "The Molecular Signatures Database (MSigDB) hallmark gene set collection",
+      "journal": "Cell Systems",
+      "volume": "1",
+      "issue": "6",
+      "pages": "417-425",
+      "doi": "10.1016/j.cels.2015.12.004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26771021/",
+      "primary_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4707969/"
+    },
+    {
+      "id": "MSigDBLicense",
+      "authors": "MSigDB",
+      "year": null,
+      "title": "License Terms for MSigDB released after April 2017",
+      "journal": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb_license_terms.jsp"
+    },
+    {
+      "id": "Habib2020",
+      "authors": "Habib N, McCabe C, Medina S, et al.",
+      "year": 2020,
+      "title": "Disease-associated astrocytes in Alzheimer's disease and aging",
+      "journal": "Nature Neuroscience",
+      "volume": "23",
+      "issue": "6",
+      "pages": "701-706",
+      "doi": "10.1038/s41593-020-0624-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32341542/"
+    },
+    {
+      "id": "Sadick2022",
+      "authors": "Sadick JS, O’Dea MR, Hasel P, Dykstra T, Faustin A, Liddelow SA",
+      "year": 2022,
+      "title": "Astrocytes and oligodendrocytes undergo subtype-specific transcriptional changes in Alzheimer's disease",
+      "journal": "Neuron",
+      "volume": "110",
+      "issue": "11",
+      "pages": "1788-1805.e10",
+      "doi": "10.1016/j.neuron.2022.03.008",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9167747/"
+    },
+    {
+      "id": "Mathys2019",
+      "authors": "Mathys H, Davila-Velderrain J, Peng Z, et al.",
+      "year": 2019,
+      "title": "Single-cell transcriptomic analysis of Alzheimer's disease",
+      "journal": "Nature",
+      "volume": "570",
+      "issue": "7761",
+      "pages": "332-337",
+      "doi": "10.1038/s41586-019-1195-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31042697/"
+    },
+    {
+      "id": "Liddelow2017",
+      "authors": "Liddelow SA, Guttenplan KA, Clarke LE, et al.",
+      "year": 2017,
+      "title": "Neurotoxic reactive astrocytes are induced by activated microglia",
+      "journal": "Nature",
+      "volume": "541",
+      "issue": "7638",
+      "pages": "481-487",
+      "doi": "10.1038/nature21029",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28099414/",
+      "primary_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5404890/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "figure": "figure_4_donor_sensitivity",
+  "meaning": "Selected gene ranges and donor-specific effect changes",
+  "sources": {
+    "results/tables/lodo_selected_results.tsv": "23de4d81ee999a28a04a12da2b10ad12bdb0acc62928030e93a84f807a9c8fa5",
+    "results/tables/lodo_selected_summary.tsv": "161d5d7e4ac5c95bfbb2a706ccf70e96658f89e8341d912a087dc48350263a3f",
+    "results/sensitivity/donor_covariates.tsv": "145943a6987d6e14a99ed6c91c7e271175043a724584b54763e0467af27ddd66",
+    "results/tables/pseudobulk_samples.tsv": "2a70492ece48ebbd5b0c204b7e7592c8ef99f8151e871af3b1157cc2f6204109"
+  },
+  "plotting_data": {
+    "results/plot_data/figure_4_omission_effects.tsv": "24ed6ed651714361b5a4ee216ed3461f14cd1fb52690d829f7ebd65ff33c6eb1",
+    "results/plot_data/figure_4_ranges.tsv": "7cd83d2ec255e50ff1e146d3a2bac5883fc5a2586a33b7121a987c73a25dfef6"
+  },
+  "points_are_empirical": true,
+  "command": "python scripts/05_figures.py",
+  "configuration": "scripts/figure_style.json",
+  "configuration_sha256": "6fa8a4f1f577177b7cac249298b7a51fffb9d70bb47edf5f9b1c654be72680a4",
+  "versions": {
+    "Python": "3.12.16",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

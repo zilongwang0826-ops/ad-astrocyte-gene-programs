@@ -1,0 +1,10 @@
+{
+  "n_donors": 18,
+  "top_genes": 500,
+  "gene_selection": "common",
+  "method": "logFC",
+  "normalization": "TMM",
+  "prior_count": 2,
+  "variance_percent": [24.3587865535826, 18.8514095644904],
+  "interpretation": "Descriptive common-gene MDS (PCA geometry), not a diagnosis test or a confounder adjustment"
+}

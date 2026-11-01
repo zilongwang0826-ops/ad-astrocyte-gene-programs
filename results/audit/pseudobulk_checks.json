@@ -1,0 +1,12 @@
+{
+  "integer_nonnegative": true,
+  "donor_names_aligned": true,
+  "no_duplicated_donors": true,
+  "donor_sum_conservation": true,
+  "global_sum_conservation": true,
+  "total_umi": 40760483,
+  "dimensions": [
+    58721,
+    18
+  ]
+}

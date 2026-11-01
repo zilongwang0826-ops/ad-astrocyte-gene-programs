@@ -1,0 +1,25 @@
+{
+  "figure": "figure_s2_program_sensitivity",
+  "meaning": "Primary-five gene-set effects and complete donor-omission FDR pattern",
+  "sources": {
+    "results/targeted_validation/gene_set_lodo.tsv": "b03602cdb1ca8d2e59929a6c2b7c5855f52616463ea91ea68a41cab3e484ae78",
+    "results/targeted_validation/gene_set_lodo_summary.tsv": "40b957d3f32ab3911771bf3e82decf3010e6a8dc1a79fe76e9c931032e0eebec",
+    "results/tables/enrichment_results.tsv": "d4ba2579c33ab66af3839969acdd2ca81d7ec99a77ac8b70752d1fab15b405e5",
+    "results/tables/pseudobulk_samples.tsv": "2a70492ece48ebbd5b0c204b7e7592c8ef99f8151e871af3b1157cc2f6204109",
+    "results/sensitivity/donor_covariates.tsv": "145943a6987d6e14a99ed6c91c7e271175043a724584b54763e0467af27ddd66"
+  },
+  "plotting_data": {
+    "results/plot_data/figure_s2_program_omissions.tsv": "50d0637c9bfe4639d606c7fef939b182aabc6b3e83ea80ac614e57b06a1b3276",
+    "results/plot_data/figure_s2_program_ranges.tsv": "59b22f9aea5e293452501aaea88356d5d913cd1cfa5fd1fac3a547ffb31a0102"
+  },
+  "points_are_empirical": true,
+  "command": "python scripts/05_figures.py",
+  "configuration": "scripts/figure_style.json",
+  "configuration_sha256": "6fa8a4f1f577177b7cac249298b7a51fffb9d70bb47edf5f9b1c654be72680a4",
+  "versions": {
+    "Python": "3.12.16",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

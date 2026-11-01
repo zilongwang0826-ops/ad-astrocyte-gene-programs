@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "matrix_genes": 58721,
+  "matrix_nuclei": 61770,
+  "metadata_nuclei": 61472,
+  "matrix_only_nuclei": 298,
+  "metadata_only_nuclei": 0,
+  "astrocyte_nuclei": 4756,
+  "donors_total": 18,
+  "donors_included": 18,
+  "donors_by_diagnosis": {
+    "AD": 11,
+    "Control": 7
+  },
+  "donors_excluded": [],
+  "astrocytes_min_per_donor": 95,
+  "astrocytes_max_per_donor": 546,
+  "gene_ids_duplicated": 0,
+  "gene_symbols_duplicated": 1588,
+  "raw_count_min_stored": 1,
+  "raw_count_max": 6767,
+  "stored_entries": 177178648,
+  "all_matrix_umi": 597964964,
+  "selected_astrocyte_umi": 40760483,
+  "genome_labels": [
+    "GRCh38.p12.premrna2"
+  ],
+  "metadata_missing_nuclei": {
+    "Barcode": 0,
+    "SampleID": 0,
+    "Diagnosis": 0,
+    "Batch": 0,
+    "Cell.Type": 0,
+    "cluster": 0,
+    "Age": 0,
+    "Sex": 0,
+    "PMI": 4575,
+    "Tangle.Stage": 0,
+    "Plaque.Stage": 0,
+    "RIN": 0,
+    "matrix_column": 0,
+    "raw_umi": 0,
+    "detected_genes": 0
+  },
+  "schema": {
+    "data": {
+      "shape": [
+        177178648
+      ],
+      "dtype": "int32"
+    },
+    "indices": {
+      "shape": [
+        177178648
+      ],
+      "dtype": "int64"
+    },
+    "indptr": {
+      "shape": [
+        61771
+      ],
+      "dtype": "int64"
+    },
+    "barcodes": {
+      "shape": [
+        61770
+      ],
+      "dtype": "|S19"
+    },
+    "shape": {
+      "shape": [
+        2
+      ],
+      "dtype": "int32"
+    }
+  },
+  "independent_case_ids": 18,
+  "supplementary_total_nuclei": 62669,
+  "primary_model": "~ diagnosis",
+  "batch_provenance_warning": "GEO Batch differs from supplementary Library.Batch; latter assay attribution is unresolved. Preserve both; do not invent a mapping.",
+  "primary_interpretation": "Marginal unadjusted AD-versus-Control association; age, sex and technical confounding remain possible."
+}

@@ -1,0 +1,422 @@
+{
+  "astrocytes": {
+    "value": 4756,
+    "rendered": "4,756",
+    "source": "results/audit/analysis_summary.json",
+    "field": "astrocyte_nuclei"
+  },
+  "ad_donors": {
+    "value": 11,
+    "rendered": "11",
+    "source": "results/audit/analysis_summary.json",
+    "field": "n_ad"
+  },
+  "control_donors": {
+    "value": 7,
+    "rendered": "7",
+    "source": "results/audit/analysis_summary.json",
+    "field": "n_control"
+  },
+  "donors": {
+    "value": 18,
+    "rendered": "18",
+    "source": "results/audit/analysis_summary.json",
+    "field": "donors"
+  },
+  "tested_genes": {
+    "value": 12331,
+    "rendered": "12,331",
+    "source": "results/audit/analysis_summary.json",
+    "field": "tested_genes"
+  },
+  "input_genes": {
+    "value": 58721,
+    "rendered": "58,721",
+    "source": "results/audit/analysis_summary.json",
+    "field": "input_genes"
+  },
+  "matrix_nuclei": {
+    "value": 61770,
+    "rendered": "61,770",
+    "source": "results/audit/dataset_audit.json",
+    "field": "matrix_nuclei"
+  },
+  "metadata_nuclei": {
+    "value": 61472,
+    "rendered": "61,472",
+    "source": "results/audit/dataset_audit.json",
+    "field": "metadata_nuclei"
+  },
+  "matrix_only": {
+    "value": 298,
+    "rendered": "298",
+    "source": "results/audit/dataset_audit.json",
+    "field": "matrix_only_nuclei"
+  },
+  "min_astrocytes": {
+    "value": 95,
+    "rendered": "95",
+    "source": "results/audit/dataset_audit.json",
+    "field": "astrocytes_min_per_donor"
+  },
+  "max_astrocytes": {
+    "value": 546,
+    "rendered": "546",
+    "source": "results/audit/dataset_audit.json",
+    "field": "astrocytes_max_per_donor"
+  },
+  "astrocyte_umis": {
+    "value": 40760483,
+    "rendered": "40,760,483",
+    "source": "results/audit/dataset_audit.json",
+    "field": "selected_astrocyte_umi"
+  },
+  "tested_sets": {
+    "value": 49,
+    "rendered": "49",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "tested_gene_sets"
+  },
+  "source_sets": {
+    "value": 50,
+    "rendered": "50",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "source_gene_sets"
+  },
+  "significant_sets": {
+    "value": 5,
+    "rendered": "5",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "significant_gene_sets"
+  },
+  "ranked_symbols": {
+    "value": 12328,
+    "rendered": "12,328",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "unique_symbols"
+  },
+  "min_set_size": {
+    "value": 15,
+    "rendered": "15",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "min_mapped_size"
+  },
+  "max_set_size": {
+    "value": 500,
+    "rendered": "500",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "max_mapped_size"
+  },
+  "displayed_genes": {
+    "value": 10,
+    "rendered": "10",
+    "source": "results/audit/lodo_summary.json",
+    "field": "selected_genes"
+  },
+  "lodo_iterations": {
+    "value": 18,
+    "rendered": "18",
+    "source": "results/audit/lodo_summary.json",
+    "field": "iterations"
+  },
+  "lodo_donors": {
+    "value": 17,
+    "rendered": "17",
+    "source": "results/audit/analysis_summary.json",
+    "field": "donors minus one"
+  },
+  "min_gene_fdr": {
+    "value": 0.376144507635913,
+    "rendered": "0.376",
+    "source": "results/audit/analysis_summary.json",
+    "field": "min_fdr"
+  },
+  "fdr_threshold": {
+    "value": 0.05,
+    "rendered": "0.05",
+    "source": "results/audit/analysis_summary.json",
+    "field": "inference.fdr_threshold"
+  },
+  "emx2_logfc": {
+    "value": -0.94685042721838,
+    "rendered": "-0.947",
+    "source": "results/tables/differential_expression.tsv",
+    "field": "EMX2.logFC"
+  },
+  "emx2_f": {
+    "value": 28.3883909047866,
+    "rendered": "28.388",
+    "source": "results/tables/differential_expression.tsv",
+    "field": "EMX2.F"
+  },
+  "emx2_p": {
+    "value": 3.0503974344004e-05,
+    "rendered": "3.05e-05",
+    "source": "results/tables/differential_expression.tsv",
+    "field": "EMX2.PValue"
+  },
+  "emx2_fdr": {
+    "value": 0.376144507635913,
+    "rendered": "0.376",
+    "source": "results/tables/differential_expression.tsv",
+    "field": "EMX2.FDR"
+  },
+  "tnfa_effect": {
+    "value": 0.29241265494028,
+    "rendered": "0.292",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "TNFA_SIGNALING_VIA_NFKB.rank_biserial"
+  },
+  "tnfa_fdr": {
+    "value": 0.00983433702682698,
+    "rendered": "0.0098",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "TNFA_SIGNALING_VIA_NFKB.FDR"
+  },
+  "inflammatory_fdr": {
+    "value": 0.0435383991690494,
+    "rendered": "0.0435",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "INFLAMMATORY_RESPONSE.FDR"
+  },
+  "upr_fdr": {
+    "value": 0.0437044842993557,
+    "rendered": "0.0437",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "UNFOLDED_PROTEIN_RESPONSE.FDR"
+  },
+  "il6_fdr": {
+    "value": 0.0437044842993557,
+    "rendered": "0.0437",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "IL6_JAK_STAT3_SIGNALING.FDR"
+  },
+  "bile_effect": {
+    "value": -0.256103586451987,
+    "rendered": "-0.256",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "BILE_ACID_METABOLISM.rank_biserial"
+  },
+  "bile_fdr": {
+    "value": 0.0437044842993557,
+    "rendered": "0.0437",
+    "source": "results/tables/enrichment_results.tsv",
+    "field": "BILE_ACID_METABOLISM.FDR"
+  },
+  "emx2_lodo_min": {
+    "value": -1.05325460907746,
+    "rendered": "-1.053",
+    "source": "results/tables/lodo_selected_summary.tsv",
+    "field": "EMX2.min_logFC"
+  },
+  "emx2_lodo_max": {
+    "value": -0.845761661792535,
+    "rendered": "-0.846",
+    "source": "results/tables/lodo_selected_summary.tsv",
+    "field": "EMX2.max_logFC"
+  },
+  "max_lodo_change": {
+    "value": 0.287857565860203,
+    "rendered": "0.288",
+    "source": "results/audit/lodo_summary.json",
+    "field": "selected_max_absolute_change"
+  },
+  "ad_age_median": {
+    "value": 89.0,
+    "rendered": "89",
+    "source": "results/audit/covariate_summary.tsv",
+    "field": "AD.Age.median"
+  },
+  "control_age_median": {
+    "value": 79.0,
+    "rendered": "79",
+    "source": "results/audit/covariate_summary.tsv",
+    "field": "Control.Age.median"
+  },
+  "r_version": {
+    "value": "4.6.1",
+    "rendered": "4.6.1",
+    "source": "results/audit/analysis_summary.json",
+    "field": "versions.R"
+  },
+  "edger_version": {
+    "value": "4.10.7",
+    "rendered": "4.10.7",
+    "source": "results/audit/analysis_summary.json",
+    "field": "versions.edgeR"
+  },
+  "limma_version": {
+    "value": "3.68.5",
+    "rendered": "3.68.5",
+    "source": "results/audit/analysis_summary.json",
+    "field": "versions.limma"
+  },
+  "set_correlation": {
+    "value": 0.01,
+    "rendered": "0.01",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "inter_gene_correlation"
+  },
+  "hallmark_version": {
+    "value": "2026.1.Hs",
+    "rendered": "2026.1.Hs",
+    "source": "results/audit/enrichment_summary.json",
+    "field": "collection"
+  },
+  "excluded_set_size": {
+    "value": 14,
+    "rendered": "14",
+    "source": "results/tables/enrichment_set_coverage.tsv",
+    "field": "HALLMARK_PANCREAS_BETA_CELLS.mapped_genes"
+  },
+  "min_nuclei_rule": {
+    "value": 20,
+    "rendered": "20",
+    "source": "results/audit/preanalysis_plan.md",
+    "field": "coverage threshold"
+  },
+  "min_donors_rule": {
+    "value": 5,
+    "rendered": "5",
+    "source": "results/audit/preanalysis_plan.md",
+    "field": "minimum group size"
+  },
+  "rho_zero": {
+    "value": 0.0,
+    "rendered": "0",
+    "source": "results/sensitivity/sensitivity_plan.md",
+    "field": "fixed correlation scenario"
+  },
+  "rho_mid": {
+    "value": 0.03,
+    "rendered": "0.03",
+    "source": "results/sensitivity/sensitivity_plan.md",
+    "field": "fixed correlation scenario"
+  },
+  "rho_high": {
+    "value": 0.05,
+    "rendered": "0.05",
+    "source": "results/sensitivity/sensitivity_plan.md",
+    "field": "fixed correlation scenario"
+  },
+  "rho0_discoveries": {
+    "value": 18,
+    "rendered": "18",
+    "source": "results/sensitivity/correlation_summary.tsv",
+    "field": "correlation=0.significant_sets"
+  },
+  "rho03_discoveries": {
+    "value": 0,
+    "rendered": "0",
+    "source": "results/sensitivity/correlation_summary.tsv",
+    "field": "correlation=0.03.significant_sets"
+  },
+  "rho05_discoveries": {
+    "value": 0,
+    "rendered": "0",
+    "source": "results/sensitivity/correlation_summary.tsv",
+    "field": "correlation=0.05.significant_sets"
+  },
+  "age_retained_original": {
+    "value": 3,
+    "rendered": "3",
+    "source": "results/audit/final_revision_sensitivity.json",
+    "field": "original_five_significant_after_age_score_adjustment"
+  },
+  "age_gene_discoveries": {
+    "value": 0,
+    "rendered": "0",
+    "source": "results/audit/final_revision_sensitivity.json",
+    "field": "adjusted_significant_genes"
+  },
+  "age_all_set_discoveries": {
+    "value": 5,
+    "rendered": "5",
+    "source": "results/audit/final_revision_sensitivity.json",
+    "field": "adjusted_significant_sets"
+  },
+  "age_design_rank": {
+    "value": 3,
+    "rendered": "3",
+    "source": "results/sensitivity/design_preflight.json",
+    "field": "rank"
+  },
+  "age_residual_df": {
+    "value": 15,
+    "rendered": "15",
+    "source": "results/sensitivity/design_preflight.json",
+    "field": "residual_df"
+  },
+  "age_vif": {
+    "value": 1.32238822584236,
+    "rendered": "1.322",
+    "source": "results/sensitivity/design_preflight.json",
+    "field": "predictor_VIF"
+  },
+  "age_emx2_logfc": {
+    "value": -1.0432991095691,
+    "rendered": "-1.043",
+    "source": "results/sensitivity/emx2_model_comparison.tsv",
+    "field": "recorded-age-score.logFC"
+  },
+  "age_emx2_fdr": {
+    "value": 0.452972795995414,
+    "rendered": "0.453",
+    "source": "results/sensitivity/emx2_model_comparison.tsv",
+    "field": "recorded-age-score.FDR"
+  },
+  "rho03_original_fdr": {
+    "value": 0.317246682312461,
+    "rendered": "0.317",
+    "source": "results/sensitivity/correlation_original_five.tsv",
+    "field": "all original five.FDR_rho_0.03"
+  },
+  "rho05_original_fdr": {
+    "value": 0.763609903899113,
+    "rendered": "0.764",
+    "source": "results/sensitivity/correlation_original_five.tsv",
+    "field": "all original five.FDR_rho_0.05"
+  },
+  "age_retained_fdr": {
+    "value": 0.0471446637234161,
+    "rendered": "0.0471",
+    "source": "results/sensitivity/age_score_original_five.tsv",
+    "field": "TNFA_SIGNALING_VIA_NFKB.adjusted_FDR"
+  },
+  "age_il6_fdr": {
+    "value": 0.076405186778385,
+    "rendered": "0.0764",
+    "source": "results/sensitivity/age_score_original_five.tsv",
+    "field": "IL6_JAK_STAT3_SIGNALING.adjusted_FDR"
+  },
+  "age_bile_fdr": {
+    "value": 0.0925934427589323,
+    "rendered": "0.0926",
+    "source": "results/sensitivity/age_score_original_five.tsv",
+    "field": "BILE_ACID_METABOLISM.adjusted_FDR"
+  },
+  "ad_female": {
+    "value": 6,
+    "rendered": "6",
+    "source": "results/sensitivity/donor_covariates.tsv",
+    "field": "AD.F count"
+  },
+  "ad_male": {
+    "value": 5,
+    "rendered": "5",
+    "source": "results/sensitivity/donor_covariates.tsv",
+    "field": "AD.M count"
+  },
+  "control_female": {
+    "value": 2,
+    "rendered": "2",
+    "source": "results/sensitivity/donor_covariates.tsv",
+    "field": "Control.F count"
+  },
+  "control_male": {
+    "value": 5,
+    "rendered": "5",
+    "source": "results/sensitivity/donor_covariates.tsv",
+    "field": "Control.M count"
+  }
+}

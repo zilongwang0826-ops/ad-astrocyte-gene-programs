@@ -1,0 +1,21 @@
+{
+  "figure": "figure_s1_donor_structure",
+  "meaning": "Common donor MDS coordinates annotated by diagnosis and recorded covariates",
+  "sources": {
+    "results/targeted_validation/donor_mds.tsv": "29aa2f205e53974a63191ea72b82e218bb7c591ad93b0caa7666c6d78117d81f",
+    "results/targeted_validation/mds_summary.json": "08758b7b406dde9577bfecd0dc883667a7df003b4feab75837f2a8ea7e346cbf"
+  },
+  "plotting_data": {
+    "results/plot_data/figure_s1_donor_structure.tsv": "bc4aa7ccaf0d0364c88a27f5d148c79bee55471d4c6f2888f2b7bee588475c66"
+  },
+  "points_are_empirical": true,
+  "command": "python scripts/05_figures.py",
+  "configuration": "scripts/figure_style.json",
+  "configuration_sha256": "6fa8a4f1f577177b7cac249298b7a51fffb9d70bb47edf5f9b1c654be72680a4",
+  "versions": {
+    "Python": "3.12.16",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "status": "EXECUTED",
+  "original_method_unchanged": true,
+  "source": "scripts/07_sensitivity.R",
+  "correlation_scenarios": [0, 0.01, 0.03, 0.05],
+  "primary_enrichment_reproduced": true,
+  "frozen_ranked_genes": 12328,
+  "frozen_gene_sets": 49,
+  "cameraPR_default_correlation": 0.01,
+  "scenario_interpretation": "Sensitivity settings, not estimated correlations",
+  "correlation_results": [
+    {
+      "correlation": 0,
+      "tested_sets": 49,
+      "significant_sets": 18,
+      "original_five_significant": 5,
+      "significant_up": 17,
+      "significant_down": 1
+    },
+    {
+      "correlation": 0.01,
+      "tested_sets": 49,
+      "significant_sets": 5,
+      "original_five_significant": 5,
+      "significant_up": 4,
+      "significant_down": 1
+    },
+    {
+      "correlation": 0.03,
+      "tested_sets": 49,
+      "significant_sets": 0,
+      "original_five_significant": 0,
+      "significant_up": 0,
+      "significant_down": 0
+    },
+    {
+      "correlation": 0.05,
+      "tested_sets": 49,
+      "significant_sets": 0,
+      "original_five_significant": 0,
+      "significant_up": 0,
+      "significant_down": 0
+    }
+  ],
+  "original_five_correlation_results": [
+    {
+      "gene_set": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+      "Direction": "Up",
+      "rank_biserial": 0.29241265494028,
+      "FDR_rho_0": 5.32103999808232e-06,
+      "FDR_rho_0.01": 0.00983433702682698,
+      "FDR_rho_0.03": 0.317246682312461,
+      "FDR_rho_0.05": 0.763609903899113
+    },
+    {
+      "gene_set": "HALLMARK_INFLAMMATORY_RESPONSE",
+      "Direction": "Up",
+      "rank_biserial": 0.265858836932318,
+      "FDR_rho_0": 0.000794317291732126,
+      "FDR_rho_0.01": 0.0435383991690494,
+      "FDR_rho_0.03": 0.317246682312461,
+      "FDR_rho_0.05": 0.763609903899113
+    },
+    {
+      "gene_set": "HALLMARK_UNFOLDED_PROTEIN_RESPONSE",
+      "Direction": "Up",
+      "rank_biserial": 0.246763514738015,
+      "FDR_rho_0": 0.000894595022282272,
+      "FDR_rho_0.01": 0.0437044842993557,
+      "FDR_rho_0.03": 0.317246682312461,
+      "FDR_rho_0.05": 0.763609903899113
+    },
+    {
+      "gene_set": "HALLMARK_BILE_ACID_METABOLISM",
+      "Direction": "Down",
+      "rank_biserial": -0.256103586451987,
+      "FDR_rho_0": 0.00171398702245567,
+      "FDR_rho_0.01": 0.0437044842993557,
+      "FDR_rho_0.03": 0.317246682312461,
+      "FDR_rho_0.05": 0.763609903899113
+    },
+    {
+      "gene_set": "HALLMARK_IL6_JAK_STAT3_SIGNALING",
+      "Direction": "Up",
+      "rank_biserial": 0.304484049479167,
+      "FDR_rho_0": 0.00638158687095085,
+      "FDR_rho_0.01": 0.0437044842993557,
+      "FDR_rho_0.03": 0.317246682312461,
+      "FDR_rho_0.05": 0.763609903899113
+    }
+  ],
+  "correlation_direction_consistency_all_sets": true,
+  "adjusted_model": {
+    "status": "IDENTIFIABLE_WITH_LIMITED_OVERLAP",
+    "model": "~ diagnosis + recorded_age_centered",
+    "unit": "independent donor",
+    "n": 18,
+    "design_columns": ["(Intercept)", "diagnosisAD", "recorded_age_centered"],
+    "rank": 3,
+    "residual_df": 15,
+    "condition_number_centered_year_units": 13.2190124070413,
+    "diagnosis_recorded_age_correlation": 0.493753400053189,
+    "predictor_VIF": 1.32238822584236,
+    "age_missing": 0,
+    "age_center": 85.6111111111111,
+    "age_ranges": {
+      "AD": [80, 90],
+      "Control": [79, 90]
+    },
+    "overlapping_recorded_range": [80, 90],
+    "exact_shared_recorded_values": 90,
+    "donors_in_exact_shared_values": {
+      "Control": 2,
+      "AD": 5
+    },
+    "donors_in_overlapping_recorded_range": {
+      "Control": 3,
+      "AD": 11
+    },
+    "top_coded_donors": {
+      "Control": 2,
+      "AD": 5
+    },
+    "missing_PMI_donors": "Sample-100",
+    "representation": "Age=90 denotes the source 90-or-older category. The observed capped score is centered; no unknown chronological ages are imputed.",
+    "assumption": "Linear association with the observed capped score. This is a recorded-age-score sensitivity, not complete adjustment for true age.",
+    "limitations": "Exact shared age values consist only of the censored upper category; sex and conflicting batch identifiers remain unadjusted."
+  },
+  "adjusted_tested_genes": 12331,
+  "adjusted_significant_genes": 0,
+  "adjusted_min_gene_fdr": 0.452972795995414,
+  "adjusted_significant_sets": 5,
+  "original_five_significant_after_age_score_adjustment": 3,
+  "original_five_directions_preserved_after_age_score_adjustment": 5,
+  "original_five_age_score_results": [
+    {
+      "gene_set": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+      "primary_direction": "Up",
+      "primary_PValue": 0.00020070075564953,
+      "primary_FDR": 0.00983433702682698,
+      "primary_rank_biserial": 0.29241265494028,
+      "adjusted_direction": "Up",
+      "adjusted_PValue": 0.00338903127518373,
+      "adjusted_FDR": 0.0471446637234161,
+      "adjusted_rank_biserial": 0.23043433054074
+    },
+    {
+      "gene_set": "HALLMARK_INFLAMMATORY_RESPONSE",
+      "primary_direction": "Up",
+      "primary_PValue": 0.00177707751710406,
+      "primary_FDR": 0.0435383991690494,
+      "primary_rank_biserial": 0.265858836932318,
+      "adjusted_direction": "Up",
+      "adjusted_PValue": 0.00287012827617947,
+      "adjusted_FDR": 0.0471446637234161,
+      "adjusted_rank_biserial": 0.253621889477102
+    },
+    {
+      "gene_set": "HALLMARK_UNFOLDED_PROTEIN_RESPONSE",
+      "primary_direction": "Up",
+      "primary_PValue": 0.00319616405065913,
+      "primary_FDR": 0.0437044842993557,
+      "primary_rank_biserial": 0.246763514738015,
+      "adjusted_direction": "Up",
+      "adjusted_PValue": 0.00481067997177716,
+      "adjusted_FDR": 0.0471446637234161,
+      "adjusted_rank_biserial": 0.235985715989322
+    },
+    {
+      "gene_set": "HALLMARK_BILE_ACID_METABOLISM",
+      "primary_direction": "Down",
+      "primary_PValue": 0.00372561080489446,
+      "primary_FDR": 0.0437044842993557,
+      "primary_rank_biserial": -0.256103586451987,
+      "adjusted_direction": "Down",
+      "adjusted_PValue": 0.0151172967769685,
+      "adjusted_FDR": 0.0925934427589323,
+      "adjusted_rank_biserial": -0.214520778938207
+    },
+    {
+      "gene_set": "HALLMARK_IL6_JAK_STAT3_SIGNALING",
+      "primary_direction": "Up",
+      "primary_PValue": 0.00445964125503629,
+      "primary_FDR": 0.0437044842993557,
+      "primary_rank_biserial": 0.304484049479167,
+      "adjusted_direction": "Up",
+      "adjusted_PValue": 0.00987192697633127,
+      "adjusted_FDR": 0.076405186778385,
+      "adjusted_rank_biserial": 0.27628173828125
+    }
+  ],
+  "emx2_model_comparison": [
+    {
+      "model": "Primary diagnosis-only",
+      "gene_id": "ENSG00000170370.11",
+      "logFC": -0.94685042721838,
+      "F": 28.3883909047866,
+      "PValue": 3.0503974344004e-05,
+      "FDR": 0.376144507635913
+    },
+    {
+      "model": "Recorded capped-age score sensitivity",
+      "gene_id": "ENSG00000170370.11",
+      "logFC": -1.0432991095691,
+      "F": 26.105695963985,
+      "PValue": 5.87812810550743e-05,
+      "FDR": 0.452972795995414
+    }
+  ],
+  "adjusted_NB_dispersion": 0.120993518595281,
+  "adjusted_NB_top_proportion": 0.0933198270434979,
+  "versions": {
+    "R": "4.6.1",
+    "edgeR": "4.10.7",
+    "limma": "3.68.5"
+  }
+}

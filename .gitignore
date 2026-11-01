@@ -1,0 +1,18 @@
+data/raw/
+.venv*/
+.build/
+.revision/
+environment/R-library*/
+environment/package-cache/
+environment/renv-cache/
+environment/renv-library*/
+environment/uv-cache/
+results/tables/primary_fit.rds
+results/audit/aligned_cell_metadata.tsv.gz
+__pycache__/
+*.pyc
+.DS_Store
+*.partial
+
+# Regenerated local verification records.
+results/audit/consistency_checks.json

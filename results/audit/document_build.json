@@ -1,0 +1,11 @@
+{
+  "report_pages": 5,
+  "summary_pages": 1,
+  "final_report": "application/AD_Astrocyte_Research_Report.pdf",
+  "final_summary": "application/AD_Astrocyte_Research_Summary.pdf",
+  "fonts": {
+    "body": "Times New Roman",
+    "headings": "Times New Roman (title and sections); Arial (subsections)",
+    "source": "Installed local TrueType files; no remote fonts"
+  }
+}

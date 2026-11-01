@@ -1,0 +1,7 @@
+diagnosis	covariate	n_observed	n_missing	median	min	max
+AD	Age	11	0	89.0	80.0	90.0
+AD	PMI	11	0	4.17	2.87	5.0
+AD	RIN	11	0	7.9	6.8	9.3
+Control	Age	7	0	79.0	79.0	90.0
+Control	PMI	6	1	4.125	1.8	7.0
+Control	RIN	7	0	8.1	7.1	10.0

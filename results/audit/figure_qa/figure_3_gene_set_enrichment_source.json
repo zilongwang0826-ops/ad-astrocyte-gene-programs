@@ -1,0 +1,23 @@
+{
+  "figure": "figure_3_gene_set_enrichment",
+  "meaning": "Hallmark rank effects and separate correlation and age-model evidence",
+  "sources": {
+    "results/tables/enrichment_results.tsv": "d4ba2579c33ab66af3839969acdd2ca81d7ec99a77ac8b70752d1fab15b405e5",
+    "results/sensitivity/correlation_all_sets.tsv": "e92a3a27c241f69f8df56f6fef537639296e61494d09c99d32e1add9a237f5f1",
+    "results/sensitivity/age_score_enrichment.tsv": "2c920be3d62899fdeef8e0acfe7e19fb8934b5166dc666fc92a99d35fc45aed8"
+  },
+  "plotting_data": {
+    "results/plot_data/figure_3_program_evidence.tsv": "cd1fc40e59a42c608d391d65499a213fe005d8fcb98786f63b74d26361c80fd3",
+    "results/plot_data/figure_3_full_family_counts.tsv": "aaa6eb0fff782419eba6b743e7256aff4528fb9d2f9f27f5eaf0382f5dc800f2"
+  },
+  "points_are_empirical": true,
+  "command": "python scripts/05_figures.py",
+  "configuration": "scripts/figure_style.json",
+  "configuration_sha256": "6fa8a4f1f577177b7cac249298b7a51fffb9d70bb47edf5f9b1c654be72680a4",
+  "versions": {
+    "Python": "3.12.16",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

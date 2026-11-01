@@ -1,0 +1,32 @@
+{
+  "status": "EXECUTED",
+  "method": "limma::cameraPR",
+  "collection": "MSigDB Hallmark 2026.1.Hs",
+  "source_file": "data/raw/h.all.v2026.1.Hs.symbols.gmt",
+  "provenance": "data/input_manifest.json",
+  "ranking": "sign(logFC) * sqrt(QL F statistic)",
+  "unique_symbols": 12328,
+  "tested_genes_before_symbol_mapping": 12331,
+  "genes_removed_by_symbol_mapping": 3,
+  "duplicate_symbol_rule": "highest primary logCPM per symbol, ties by gene_id; no P-value-based selection",
+  "source_gene_sets": 50,
+  "tested_gene_sets": 49,
+  "significant_gene_sets": 5,
+  "significant_up": 4,
+  "significant_down": 1,
+  "min_mapped_size": 15,
+  "max_mapped_size": 500,
+  "use_ranks": true,
+  "directional": true,
+  "inter_gene_correlation": 0.01,
+  "correlation_source": "prespecified fixed assumption, not estimated from donors",
+  "test": "two-sided competitive rank-sum test with correlation variance adjustment; analytical, no permutations",
+  "effect": "rank-biserial effect = 2*Pr(set gene outranks non-set gene)-1, average ranks for ties; not NES",
+  "positive_direction": "set genes rank toward higher expression in AD relative to other tested genes",
+  "multiple_testing": "Benjamini-Hochberg across all eligible gene sets",
+  "fdr_threshold": 0.05,
+  "interpretation": "Exploratory program-level association; significance is conditional on assumed gene correlation",
+  "software": {
+    "limma": "3.68.5"
+  }
+}

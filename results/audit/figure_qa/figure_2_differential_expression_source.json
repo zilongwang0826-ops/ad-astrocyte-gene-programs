@@ -1,0 +1,22 @@
+{
+  "figure": "figure_2_differential_expression",
+  "meaning": "Gene-level null discoveries and recorded-age effect sensitivity",
+  "sources": {
+    "results/tables/differential_expression.tsv": "fc969e08ee67b966694029e2586b228f8525c983ced59bb3fd7d012073d2ff80",
+    "results/sensitivity/age_score_differential_expression.tsv": "1669b1d5457a2014586e747be49206d45d7365b8f2ea3c3fbe72290b28cbdad2"
+  },
+  "plotting_data": {
+    "results/plot_data/figure_2_all_genes.tsv": "78c4296ce5f3b8d1a94e2fdd4513d4878c985356767a0898ec31f1c4f4fa93fe",
+    "results/plot_data/figure_2_model_comparison.tsv": "ae6f93e0029530daa1e397ea3eec0934704db207ac5c607f061e54e488f612fd"
+  },
+  "points_are_empirical": true,
+  "command": "python scripts/05_figures.py",
+  "configuration": "scripts/figure_style.json",
+  "configuration_sha256": "6fa8a4f1f577177b7cac249298b7a51fffb9d70bb47edf5f9b1c654be72680a4",
+  "versions": {
+    "Python": "3.12.16",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

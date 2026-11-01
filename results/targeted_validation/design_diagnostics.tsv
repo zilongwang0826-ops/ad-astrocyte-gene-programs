@@ -1,0 +1,7 @@
+covariate	n	missing	n_ad	n_control	design_columns	rank	residual_df	full_rank	condition_number	levels_shared_by_both_groups	numeric_standardized_for_condition_number
+recorded_age_score	18	0	11	7	3	3	15	TRUE	3.51334111747605	NA	TRUE
+sex	18	0	11	7	3	3	15	TRUE	4.14389395342447	2	FALSE
+GEO_batch	18	0	11	7	4	4	14	TRUE	5.21474048969405	3	FALSE
+supplementary_library_batch	18	0	11	7	4	4	14	TRUE	6.60236940143218	2	FALSE
+RIN	18	0	11	7	3	3	15	TRUE	3.00028929888494	NA	TRUE
+PMI	17	1	11	6	3	3	14	TRUE	3.12872174907793	NA	TRUE

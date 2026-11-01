@@ -1,0 +1,117 @@
+{
+  "figures": [
+    {
+      "figure": "figure_1_study_overview",
+      "classification": "substantially_redesigned",
+      "panels": 2,
+      "sources": {
+        "results/tables/pseudobulk_samples.tsv": "2a70492ece48ebbd5b0c204b7e7592c8ef99f8151e871af3b1157cc2f6204109",
+        "results/sensitivity/donor_covariates.tsv": "145943a6987d6e14a99ed6c91c7e271175043a724584b54763e0467af27ddd66"
+      },
+      "plotting_data": {
+        "results/plot_data/figure_1_donors.tsv": "451eee3f3151dd63113fc7842fbb7f71d9e01a3b7d3339da63952b8fc1f3fd5a"
+      },
+      "files": {
+        "pdf": {
+          "path": "results/figures/figure_1_study_overview.pdf",
+          "sha256": "6bc60cf753b0d7342d3966e1b7594171d4a0a1a2fc223edbcc134035f279f88d"
+        },
+        "svg": {
+          "path": "results/figures/figure_1_study_overview.svg",
+          "sha256": "a07291826bd688ab589474accd842b957419c253072407791cc0cb3960cd6701"
+        },
+        "png": {
+          "path": "results/figures/figure_1_study_overview.png",
+          "sha256": "d93d7a56efe55508d103e37e7b6039e7974e8dc4a0149040fbad8b6a167e2626"
+        }
+      }
+    },
+    {
+      "figure": "figure_2_differential_expression",
+      "classification": "substantially_redesigned",
+      "panels": 2,
+      "sources": {
+        "results/tables/differential_expression.tsv": "fc969e08ee67b966694029e2586b228f8525c983ced59bb3fd7d012073d2ff80",
+        "results/sensitivity/age_score_differential_expression.tsv": "1669b1d5457a2014586e747be49206d45d7365b8f2ea3c3fbe72290b28cbdad2"
+      },
+      "plotting_data": {
+        "results/plot_data/figure_2_all_genes.tsv": "78c4296ce5f3b8d1a94e2fdd4513d4878c985356767a0898ec31f1c4f4fa93fe",
+        "results/plot_data/figure_2_model_comparison.tsv": "ae6f93e0029530daa1e397ea3eec0934704db207ac5c607f061e54e488f612fd"
+      },
+      "files": {
+        "pdf": {
+          "path": "results/figures/figure_2_differential_expression.pdf",
+          "sha256": "90fa9e90c00674c31c483bc8dbd9c8516b992dfa6ec2aa53f637d39c34294da1"
+        },
+        "svg": {
+          "path": "results/figures/figure_2_differential_expression.svg",
+          "sha256": "fb5cb7950f7d774636d29bdf1d163c52f0fcfcdb0debee84ee8b23448ca0d0ee"
+        },
+        "png": {
+          "path": "results/figures/figure_2_differential_expression.png",
+          "sha256": "60ff6245914b76f6a1e1fd7f9a358d6286a3339af1feb27b2674a778b6fc9759"
+        }
+      }
+    },
+    {
+      "figure": "figure_3_gene_set_enrichment",
+      "classification": "substantially_redesigned",
+      "panels": 3,
+      "sources": {
+        "results/tables/enrichment_results.tsv": "d4ba2579c33ab66af3839969acdd2ca81d7ec99a77ac8b70752d1fab15b405e5",
+        "results/sensitivity/correlation_all_sets.tsv": "e92a3a27c241f69f8df56f6fef537639296e61494d09c99d32e1add9a237f5f1",
+        "results/sensitivity/age_score_enrichment.tsv": "2c920be3d62899fdeef8e0acfe7e19fb8934b5166dc666fc92a99d35fc45aed8"
+      },
+      "plotting_data": {
+        "results/plot_data/figure_3_program_evidence.tsv": "cd1fc40e59a42c608d391d65499a213fe005d8fcb98786f63b74d26361c80fd3",
+        "results/plot_data/figure_3_full_family_counts.tsv": "aaa6eb0fff782419eba6b743e7256aff4528fb9d2f9f27f5eaf0382f5dc800f2"
+      },
+      "files": {
+        "pdf": {
+          "path": "results/figures/figure_3_gene_set_enrichment.pdf",
+          "sha256": "3d5c4db126528a9983613dca47c9692895ad079b96e4c19083ffeb39893bdbd7"
+        },
+        "svg": {
+          "path": "results/figures/figure_3_gene_set_enrichment.svg",
+          "sha256": "9e6906fbf290a731d20fb7803eeeacc6cee824ad1e5cb19d5c627792e669b61c"
+        },
+        "png": {
+          "path": "results/figures/figure_3_gene_set_enrichment.png",
+          "sha256": "ee1a03fd066787102ca64e376a774b7c0db5c69923a3eaa71ad08acfcf0ec04d"
+        }
+      }
+    },
+    {
+      "figure": "figure_4_donor_sensitivity",
+      "classification": "substantially_redesigned",
+      "panels": 2,
+      "sources": {
+        "results/tables/lodo_selected_results.tsv": "23de4d81ee999a28a04a12da2b10ad12bdb0acc62928030e93a84f807a9c8fa5",
+        "results/tables/lodo_selected_summary.tsv": "161d5d7e4ac5c95bfbb2a706ccf70e96658f89e8341d912a087dc48350263a3f",
+        "results/sensitivity/donor_covariates.tsv": "145943a6987d6e14a99ed6c91c7e271175043a724584b54763e0467af27ddd66",
+        "results/tables/pseudobulk_samples.tsv": "2a70492ece48ebbd5b0c204b7e7592c8ef99f8151e871af3b1157cc2f6204109"
+      },
+      "plotting_data": {
+        "results/plot_data/figure_4_omission_effects.tsv": "24ed6ed651714361b5a4ee216ed3461f14cd1fb52690d829f7ebd65ff33c6eb1",
+        "results/plot_data/figure_4_ranges.tsv": "7cd83d2ec255e50ff1e146d3a2bac5883fc5a2586a33b7121a987c73a25dfef6"
+      },
+      "files": {
+        "pdf": {
+          "path": "results/figures/figure_4_donor_sensitivity.pdf",
+          "sha256": "9d21cbcfc9c88e5144dcd4b250afa757b02b513795cac17657dcfce194b4e297"
+        },
+        "svg": {
+          "path": "results/figures/figure_4_donor_sensitivity.svg",
+          "sha256": "1cb71e4dbb79b785d5dd4cbd1c71b18a44f8826c385dc9e628cd3ef2b6770903"
+        },
+        "png": {
+          "path": "results/figures/figure_4_donor_sensitivity.png",
+          "sha256": "55cdd9e4f4cd731977534c19cde3abe0cdd1de49cf7143a8bf3c7d8f687b13ff"
+        }
+      }
+    }
+  ],
+  "final_figures": 4,
+  "panels": 9,
+  "dpi": 400
+}
